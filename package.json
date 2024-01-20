@@ -1,0 +1,25 @@
+{
+  "name": "ethers-blobs",
+  "version": "1.0.0",
+  "description": "Script for sending blob transactions using Ethers",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typechain/ethers-v5": "^11.0.0",
+    "@types/chai": "^4.3.5",
+    "chai": "^4.3.7",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "c-kzg": "^2.1.2",
+    "ethers": "^5.7.2"
+  }
+}
