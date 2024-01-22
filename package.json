@@ -19,6 +19,9 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@ethereumjs/tx": "^5.1.0",
+    "@ethereumjs/vm": "^7.1.0",
+    "axios": "^1.6.5",
     "c-kzg": "^2.1.2",
     "ethers": "^5.7.2"
   }

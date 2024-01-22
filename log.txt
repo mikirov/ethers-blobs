@@ -1,0 +1,42 @@
+
+> ethers-blobs@1.0.0 start
+> tsc && node .
+
+6002198950425702701
+true
+0x013da116357fd0923d5e5c21a29cc46cbe45ba96840761f56393f9248ad68c9b
+[
+  Uint8Array(1) [ 5 ],
+  0,
+  Uint8Array(4) [ 89, 104, 47, 0 ],
+  Uint8Array(4) [ 89, 104, 47, 18 ],
+  Uint8Array(2) [ 82, 8 ],
+  '0xB97e7690C1Dbdbec4c1Cf90F38b330f6A1C41EA2',
+  0,
+  '0x',
+  [],
+  Uint8Array(5) [ 37, 5, 35, 118, 0 ],
+  [
+    '0x013da116357fd0923d5e5c21a29cc46cbe45ba96840761f56393f9248ad68c9b'
+  ]
+]
+0x03f84f05808459682f008459682f1282520894b97e7690c1dbdbec4c1cf90f38b330f6a1c41ea28080c0852505237600e1a0013da116357fd0923d5e5c21a29cc46cbe45ba96840761f56393f9248ad68c9b
+{
+  chainId: Uint8Array(1) [ 5 ],
+  nonce: 0,
+  maxPriorityFeePerGas: Uint8Array(4) [ 89, 104, 47, 0 ],
+  maxFeePerGas: Uint8Array(4) [ 89, 104, 47, 18 ],
+  gasLimit: Uint8Array(2) [ 82, 8 ],
+  to: '0xB97e7690C1Dbdbec4c1Cf90F38b330f6A1C41EA2',
+  value: 0,
+  data: '0x',
+  accessList: [],
+  maxFeePerBlobGas: Uint8Array(5) [ 37, 5, 35, 118, 0 ],
+  blobVersionedHashes: [
+    '0x013da116357fd0923d5e5c21a29cc46cbe45ba96840761f56393f9248ad68c9b'
+  ],
+  y_parity: 1,
+  r: '0x95bf5510ab0faa379497ed39d1aa580d61be34521f2b704091bcb881a02b72ba',
+  s: '0x778a408c0cf522a3af78031ec52038a2349d6b5ff5cdb03016ae4591cceefbaa'
+}
+262668
